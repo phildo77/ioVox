@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types>
+	<Type id='0' name="Vacuum" desc="Not for cleaning the carpet." isvisible="false" istransp="true" facetype="none"/>
+	<Type id='1' name="Dirt" desc="Grow stuff here." isvisible="true" istransp="false" facetype="flat"/>
+	<Type id='2' name="Sand" desc="Is this the beach?" isvisible="true" istransp="false" facetype="pile"/>
+</Types>
