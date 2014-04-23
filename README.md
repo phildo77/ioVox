@@ -1,3 +1,6 @@
+LICENSE
+=====
+
 Copyright 2014 ioSoftSmiths / PJ Lorenz
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,34 +26,25 @@ Basic voxel mesh generator in C#.
 
 
 Files:
-
-CDataArray3D
 =====
 
-Class that manages Voxel info.  Data is stored in compressed strips.
+CDataArray3D
+Class that manages Voxel info.  Data is stored in "compressed" strips.
 
 
 FVector3.cs & IVector3.cs
-=====
-
 Clunky float/integer type Vector classes.
 
 
-ioSS
-=====
-
+ioSS.cs
 Constants / Helpers / Debug
 
 
 ioVox / ioVoxChunk.cs
-=====
-
 Manages Chunks.
 
 
 ioVox / ioVoxel.cs
-=====
-
 Voxel management.  Including loading custom type data from XML file.
 
 
