@@ -422,8 +422,8 @@ namespace ioSS
 
                 CompData frontStrip = new CompData(workBlock.Data, workBlock.count - 1);
 
-                DataBlock.Insert(dataIndex, frontStrip);
                 DataBlock[dataIndex] = newStrip;
+                DataBlock.Insert(dataIndex, frontStrip);
                 Meld(dataIndex, MeldDir.Back);
 
                 return true;
