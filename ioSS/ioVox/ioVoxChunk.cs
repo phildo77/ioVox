@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using ioSS;
 using System.Collections;
+using CDataArray;
+using CDataArray.ioVector;
+
 
 namespace ioSS.ioVox
 {
@@ -689,8 +692,8 @@ namespace ioSS.ioVox
                 #endregion
 
                 
-                #region BEVELED JOINED meshing
-                
+                #region BEVELED JOINED meshing -- Not working
+                /*
 
                 if (m_FaceType == ioVox.FaceType.BEVJOIN)
                 {
@@ -804,6 +807,7 @@ namespace ioSS.ioVox
 
                     m_IsMeshed = true;
                 }
+                 */
                 #endregion
                 
             }
@@ -958,7 +962,7 @@ namespace ioSS.ioVox
             public void SetNeighborData(List<Dictionary<IVector3, NeighborJoinType> > _edgeData, Dictionary<IVector3, NeighborJoinType> _diagData)
             {
                 m_NeighborData = _edgeData;
-                m_NeighborDiagData = _diagData
+                m_NeighborDiagData = _diagData;
             }
 
             public List<IVector3> GetEdgeCoordsCW(Edge _edge)

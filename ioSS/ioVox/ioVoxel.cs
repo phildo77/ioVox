@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Xml;
+using CDataArray.ioVector;
 #if UNITY
 using UnityEngine;
 #endif
